@@ -43,7 +43,7 @@ export default function Home() {
     test.animate();
 
     if (!test.scene) return;
-    initializeModel(test.scene, "./dog.glb");
+    initializeModel(test.scene, "./SV_web");
 
     return () => {
       test.onUnmount();
